@@ -1,0 +1,210 @@
+.nav {
+  /* border: 1px solid red; */
+  border-bottom: 1px solid rgb(202, 202, 202);
+  /* padding: 0 16px; */
+  /* padding-right: 10px; */
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+  height: 56px;
+  align-items: center;
+}
+
+/* --------------------------bagian section left------------------ */
+.section-left {
+  /* border: 1px solid red; */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: center;
+  /* flex: 1; */
+}
+.hamburger-menu {
+  /* width: 25px; */
+  width: 20px;
+  /* border: 1px solid blue; */
+  margin-right: 16px;
+  cursor: pointer;
+}
+.youtube-icon {
+  /* border: 1px solid blue; */
+  /* width: 80px; */
+  width: 70px;
+}
+
+/* --------------------------bagian section middle------------------ */
+.section-middle {
+  /* border: 1px solid blue; */
+  display: flex;
+  height: 40px;
+  align-items: center;
+
+  /* tes inspect youtbe */
+  /* flex-basis: 720px; */
+}
+.contain {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 100%;
+  /* padding: 8px; */
+  height: 100%;
+}
+.contain input {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+
+.contain input::placeholder {
+  padding-left: 10px;
+}
+
+.contain input:focus {
+  outline: none !important;
+  border: 1px solid #94a3b8;
+  /* box-shadow: 0 0 10px #719ece; */
+}
+.search {
+  /* border: 1px solid blue; */
+  /* padding: 8px; */
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(218, 218, 218);
+  border-right: 1px solid rgb(218, 218, 218);
+  border-bottom: 1px solid rgb(218, 218, 218);
+  border-left: none;
+  background-color: rgb(216, 216, 216);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hover {
+  position: absolute;
+  background-color: rgb(235, 235, 235);
+  bottom: -30px;
+  padding: 4px 12px;
+  font-size: 12px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.search:hover .hover,
+.contain-voice:hover .hover {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.search img {
+  /* width: 20px;
+  height: 20px; */
+  width: 16px;
+  height: 16px;
+}
+.contain-voice {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid blue; */
+  margin-left: 8px;
+  border-radius: 50%;
+  background-color: rgb(216, 216, 216);
+  justify-content: center;
+  padding: 0 8px;
+  cursor: pointer;
+}
+.voice {
+  /* width: 20px; */
+  width: 16px;
+  /* height: 20px; */
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+}
+
+/* --------------------------bagian section right------------------ */
+.section-rigth {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  /* min-width: 200px; */
+  /* margin-left: 12px; */
+  /* margin-left: 10px; */
+}
+
+/* .section-rigth div {
+    border: 1px solid red;
+    display: flex;
+    position: relative;
+  } */
+
+.contain-Upload,
+.contain-apps,
+.contain-notif {
+  /* border: 1px solid red; */
+  position: relative;
+  cursor: pointer;
+}
+
+.section-rigth div img {
+  /* width: 24px;
+  height: 24px; */
+  width: 20px;
+  height: 20px;
+}
+
+.image-profil {
+  object-fit: cover;
+  border-radius: 50%;
+  /* border: 1px solid blue; */
+  display: flex;
+  cursor: pointer;
+}
+
+.image-profil img {
+  /* width: 40px;
+  height: 40px; */
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+}
+
+/* after hover */
+.hover-upload,
+.hover-apps,
+.hover-notif {
+  background-color: rgb(235, 235, 235);
+  position: absolute;
+  bottom: -38px;
+  right: -14px;
+  left: -16px;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  padding: 3px 30px;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* animation hover */
+.contain-Upload:hover .hover-upload,
+.contain-apps:hover .hover-apps,
+.contain-notif:hover .hover-notif {
+  opacity: 1;
+  transition: opacity 0.3s;
+}

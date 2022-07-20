@@ -1,0 +1,141 @@
+/* mobile device */
+/* default */
+
+/* portait tablet  */
+@media (min-width: 600px) {
+  /* grid video */
+  .grid-video {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* left-section */
+  .hamburger-menu {
+    width: 25px;
+  }
+  .youtube-icon {
+    width: 80px;
+  }
+
+  /* middle-section */
+  .search img {
+    width: 20px;
+    height: 20px;
+  }
+  .voice {
+    width: 20px;
+  }
+
+  /* right-section */
+  .section-rigth {
+    min-width: 180px;
+  }
+  .image-profil img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* landscape tablet */
+@media (min-width: 768px) {
+  body {
+    padding-left: 73px;
+    /* border: 1px solid red; */
+  }
+
+  /* header */
+  .nav {
+    padding: 0 16px;
+  }
+  .section-left {
+    padding: 6px;
+  }
+
+  /* sidebar */
+  .sidebar {
+    transform: translateX(0);
+    width: 70px;
+  }
+  .sidebar div {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 12px;
+  }
+  .sidebar img {
+    width: 1rem;
+  }
+  .sidebar h6 {
+    font-size: 0.5rem;
+    margin-left: 0;
+  }
+
+  /* grid video */
+  .grid-video {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .section-middle {
+    flex-basis: 400px;
+  }
+  .tooltip-parent {
+    visibility: visible;
+  }
+}
+
+/* dekstop device */
+@media (min-width: 1000px) {
+  .grid-video {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .tooltip-parent {
+    visibility: visible;
+  }
+  .section-middle {
+    flex-basis: 600px;
+  }
+  .description h3 {
+    font-size: 16px;
+    line-height: 24px;
+    /* border: 1px solid red; */
+  }
+  .description p {
+    font-size: 14px;
+  }
+}
+
+/* dekstop large */
+@media (min-width: 1200px) {
+  body {
+    padding-left: 150px;
+  }
+
+  .section-middle {
+    flex-basis: 720px;
+  }
+  .sidebar {
+    width: 11vw;
+    transform: translateX(0);
+  }
+  .sidebar div {
+    flex-direction: row;
+  }
+  .sidebar img {
+    width: 1.5rem;
+  }
+  .sidebar h6 {
+    margin-left: 10px;
+    font-size: 0.8rem;
+    /* border: 1px solid red; */
+  }
+
+  .description h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .description p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .tooltip-parent {
+    visibility: visible;
+  }
+}

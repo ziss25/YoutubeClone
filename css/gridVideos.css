@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500;1,700&display=swap');
+
+.grid-video {
+  /* border: 3px solid red; */
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  column-gap: 14px;
+
+  /* mobile default */
+  padding: 0 14px;
+  grid-template-columns: 1fr;
+  row-gap: 34px;
+}
+
+.contain-picture img {
+  width: 100%;
+}
+
+.content {
+  /* border: 1px solid green; */
+  margin-top: 4px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.contain-profil-picture {
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+  /* padding: 8px; */
+}
+
+.parent-profil {
+  /* width: 35px;
+  height: 35px; */
+  /* border: 1px solid red; */
+  cursor: pointer;
+  position: relative;
+
+  /* mobile default */
+  width: 30px;
+  height: 30px;
+}
+
+.contain-profil-picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  /* border: 1px solid blue; */
+}
+
+/* 16 d hover profil img */
+.tooltip-parent {
+  background-color: white;
+  display: grid;
+  position: absolute;
+  grid-template-columns: 50px 1fr;
+  width: 250px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  border-radius: 6px;
+  padding: 8px;
+  bottom: -75px;
+  /* visibility: hidden; */
+  opacity: 0;
+  transition: opacity 0.8s;
+  pointer-events: none;
+  visibility: hidden;
+}
+.tooltip-parent img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  /* border: 1px solid blue; */
+}
+
+.tooltip-text-parent h3 {
+  /* border: 1px solid green; */
+  font-weight: 500;
+  font-size: 18px;
+}
+.tooltip-text-parent p {
+  /* border: 1px solid yellow; */
+  font-weight: 400;
+  color: #666;
+}
+.parent-profil:hover .tooltip-parent {
+  /* visibility: visible; */
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+
+.description h3 {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* border: 1px solid red; */
+}
+
+.description p {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 4px;
+  color: rgb(96, 96, 96);
+  font-weight: 400;
+}
