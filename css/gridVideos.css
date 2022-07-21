@@ -15,10 +15,13 @@
 .card {
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   background-color: white;
+  border-radius: 4px;
 }
 
 .contain-picture img {
   width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .content {
