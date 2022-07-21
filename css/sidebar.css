@@ -40,6 +40,8 @@
 
 .sidebar img {
   width: 1.5rem;
+  border: 1px solid red;
+  margin-top: 4px;
 }
 
 .sidebar h6 {

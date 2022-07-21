@@ -26,16 +26,17 @@
 .contain-profil-picture {
   display: flex;
   justify-content: center;
-  /* background-color: blue; */
-  padding: 4px 0;
+  background-color: blue;
+  /* padding: 4px 0; */
 }
 
 .parent-profil {
   /* width: 35px;
   height: 35px; */
-  /* border: 1px solid red; */
+  border: 1px solid red;
   cursor: pointer;
   position: relative;
+  padding-top: 4px;
 
   /* mobile default */
   width: 30px;
