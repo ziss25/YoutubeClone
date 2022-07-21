@@ -12,15 +12,21 @@
   row-gap: 34px;
 }
 
+.card {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  background-color: white;
+}
+
 .contain-picture img {
   width: 100%;
 }
 
 .content {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-top: 2px;
   display: grid;
   grid-template-columns: 50px 1fr;
+  padding: 0 4px;
 }
 
 .contain-profil-picture {
@@ -92,7 +98,7 @@
 }
 
 .description {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* margin-top: -4px; */
 }
 
