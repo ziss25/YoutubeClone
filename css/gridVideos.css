@@ -92,7 +92,7 @@
 }
 
 .description {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* margin-top: -4px; */
 }
 
@@ -101,8 +101,10 @@
   font-weight: 500;
   font-size: 14px;
   /* line-height: 20px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* transform: translateY(-4px); */
+  padding: 0;
+  margin: 0;
 }
 
 .description p {
