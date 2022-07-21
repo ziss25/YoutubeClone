@@ -17,7 +17,7 @@
 }
 
 .content {
-  /* border: 1px solid green; */
+  border: 1px solid green;
   margin-top: 4px;
   display: grid;
   grid-template-columns: 50px 1fr;
@@ -27,7 +27,7 @@
   display: flex;
   justify-content: center;
   /* background-color: blue; */
-  /* padding: 8px; */
+  padding: 4px 0;
 }
 
 .parent-profil {
